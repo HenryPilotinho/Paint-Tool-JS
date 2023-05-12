@@ -15,8 +15,7 @@ body {
     width: 100%;
     height: 80px;
     background-color: #e997b2;
-    border: 1px solid lightblue;
-    border-radius: 8px;
+    border: 1px  lightblue;
     box-shadow: 5px 10px 10px rgb(0,0,0,0.2);
 }
 
@@ -30,11 +29,13 @@ body {
 .container {
     display: flex;
     justify-content: center;
+    
 }
 
 .toolsContainer {
     box-shadow: 8px 10px 15px rgb(0,0,0,0.2);
-    background-color: white;
+    background-color: #eb9eb7;
+    opacity: 85%;
     margin: 20px;
     padding: 20px 5px;
     text-align: center;
@@ -49,11 +50,30 @@ body {
 button {
     background-color: none;
     transition: .3s;
+    box-sizing: border-box;
+    
+   
 }
+.icon-size{
+    font-family: 'arial black';
+    color: #14396A !important;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 2px 15px 10px;
+    border-radius: 10px;
+    border: 2px solid #5081c2;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63eead, #469dcf);
+    cursor: pointer;
+    display: inline-flexbox;
+    flex-direction: row-reverse;
+  }
+  
 
 .toolsContainer .icon button:focus{
     border-radius: 15%;
-    background-color: aliceblue;
+    background-color: rgb(71, 118, 158);
     box-shadow: 2px 6px 10px rgb(0,0,0,0.2);
     animation: anime-shadow .3s forwards;
 }
@@ -77,5 +97,126 @@ button {
 }
 
 .toolsContainer h4 {
-    margin-top: 10px;
+    margin-top: 1px;
+    padding: 5px;
+}
+.icon:nth-child(1){
+    font-family: 'arial black';
+    color: #14396A !important;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 2px 15px 10px;
+    border-radius: 10px;
+    border: 2px solid #5081c2;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63eead, #469dcf);
+  }
+  .testbutton:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+}
+.icon:nth-child(2){
+    font-family: 'arial black';
+    color: #14396A !important;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 2px 15px 10px;
+    border-radius: 10px;
+    border: 2px solid #5081c2;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63eead, #469dcf);
+  }
+  .testbutton:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+}
+
+.pencil, .icon:nth-child(3) {
+    font-family: 'arial black';
+    color: #14396A !important;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 2px 15px 10px;
+    border-radius: 10px;
+    border: 2px solid #5081c2;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63eead, #469dcf);
+  }
+  .testbutton:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+  }
+.icon:nth-child(4){
+    font-family: 'arial black';
+    color: #14396A !important;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 2px 15px 10px;
+    border-radius: 10px;
+    border: 2px solid #5081c2;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63eead, #469dcf);
+  }
+  .testbutton:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+}
+.icon:nth-child(5){
+    font-family: 'arial black';
+    color: #14396A !important;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 2px 15px 10px;
+    border-radius: 10px;
+    border: 2px solid #5081c2;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63eead, #469dcf);
+  }
+  .testbutton:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+}
+.icon:nth-child(6){
+    font-family: 'arial black';
+    color: #14396A !important;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 2px 15px 10px;
+    border-radius: 10px;
+    border: 2px solid #5081c2;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63eead, #469dcf);
+  }
+  .testbutton:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+}
+.icon:nth-child(7){
+    font-family: 'arial black';
+    color: #14396A !important;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 2px 15px 10px;
+    border-radius: 10px;
+    border: 2px solid #5081c2;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63eead, #469dcf);
+  }
+  .testbutton:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
 }
